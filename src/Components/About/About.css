@@ -1,0 +1,121 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.about-title{
+    position: relative;
+}
+.about-title h1{
+    font-size: 60px;
+    font-weight: 600;
+    padding: 0px 30px;
+}
+.about-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.about-section{
+    display: flex;
+    gap: 100px;
+   
+}
+
+.about-right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 35px;
+    width: 50%;
+}
+.about-para{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 500;
+}
+
+.about-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.about-skill{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    transition: 0.3s;
+}
+
+.about-skill p{
+    font-size: 20px;
+    font-weight: 500;
+    min-width: 150px;
+}
+.about-skill hr{
+    outline: none;
+    border: none;
+    width: 40%;
+    height: 6px;
+    border-radius: 50px;
+    background: linear-gradient(276deg, #10985d 0%, #e20611 102.05%);
+
+}
+
+.about-achievments {
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.about-achievment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    transition: 0.3s;
+}
+.about-achievment h1{
+    font-size: 60px;
+    font-weight: 600;
+    background: linear-gradient(276deg, #101998 0%, #e20611 102.05%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-achievment p{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.about-skill:hover, .about-achievment:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.about-left img{
+    border-radius: 20px;
+}
+
+.about-left img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
